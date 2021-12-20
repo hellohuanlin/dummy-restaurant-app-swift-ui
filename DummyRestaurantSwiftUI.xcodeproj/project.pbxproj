@@ -14,6 +14,11 @@
 		E0C6E2212770FFE000EA6AA3 /* DummyRestaurantSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E2202770FFE000EA6AA3 /* DummyRestaurantSwiftUITests.swift */; };
 		E0C6E22B2770FFE000EA6AA3 /* DummyRestaurantSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E22A2770FFE000EA6AA3 /* DummyRestaurantSwiftUIUITests.swift */; };
 		E0C6E22D2770FFE000EA6AA3 /* DummyRestaurantSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E22C2770FFE000EA6AA3 /* DummyRestaurantSwiftUIUITestsLaunchTests.swift */; };
+		E0C6E23B2771010900EA6AA3 /* Allergen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E23A2771010900EA6AA3 /* Allergen.swift */; };
+		E0C6E23D2771016500EA6AA3 /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E23C2771016500EA6AA3 /* FoodCategory.swift */; };
+		E0C6E23F277101F600EA6AA3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E23E277101F600EA6AA3 /* Location.swift */; };
+		E0C6E2412771021600EA6AA3 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E2402771021600EA6AA3 /* Dish.swift */; };
+		E0C6E2432771027C00EA6AA3 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E2422771027C00EA6AA3 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		E0C6E2262770FFE000EA6AA3 /* DummyRestaurantSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummyRestaurantSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C6E22A2770FFE000EA6AA3 /* DummyRestaurantSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyRestaurantSwiftUIUITests.swift; sourceTree = "<group>"; };
 		E0C6E22C2770FFE000EA6AA3 /* DummyRestaurantSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyRestaurantSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0C6E23A2771010900EA6AA3 /* Allergen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allergen.swift; sourceTree = "<group>"; };
+		E0C6E23C2771016500EA6AA3 /* FoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
+		E0C6E23E277101F600EA6AA3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		E0C6E2402771021600EA6AA3 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		E0C6E2422771027C00EA6AA3 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		E0C6E20E2770FFDE00EA6AA3 /* DummyRestaurantSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E0C6E239277100F800EA6AA3 /* Models */,
 				E0C6E20F2770FFDE00EA6AA3 /* DummyRestaurantSwiftUIApp.swift */,
 				E0C6E2112770FFDE00EA6AA3 /* ContentView.swift */,
 				E0C6E2132770FFE000EA6AA3 /* Assets.xcassets */,
@@ -125,6 +136,18 @@
 				E0C6E22C2770FFE000EA6AA3 /* DummyRestaurantSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = DummyRestaurantSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		E0C6E239277100F800EA6AA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0C6E23A2771010900EA6AA3 /* Allergen.swift */,
+				E0C6E23C2771016500EA6AA3 /* FoodCategory.swift */,
+				E0C6E23E277101F600EA6AA3 /* Location.swift */,
+				E0C6E2402771021600EA6AA3 /* Dish.swift */,
+				E0C6E2422771027C00EA6AA3 /* Restaurant.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0C6E2122770FFDE00EA6AA3 /* ContentView.swift in Sources */,
+				E0C6E23B2771010900EA6AA3 /* Allergen.swift in Sources */,
+				E0C6E23F277101F600EA6AA3 /* Location.swift in Sources */,
+				E0C6E2432771027C00EA6AA3 /* Restaurant.swift in Sources */,
+				E0C6E2412771021600EA6AA3 /* Dish.swift in Sources */,
 				E0C6E2102770FFDE00EA6AA3 /* DummyRestaurantSwiftUIApp.swift in Sources */,
+				E0C6E23D2771016500EA6AA3 /* FoodCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
