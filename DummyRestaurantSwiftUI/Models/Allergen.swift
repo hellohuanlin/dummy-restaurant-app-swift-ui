@@ -5,7 +5,7 @@
 //  Created by Huan Lin on 12/20/21.
 //
 
-enum Allergen: String {
+enum Allergen: String, Codable {
   case peanut = "peanut"
   case egg = "egg"
   case milk = "milk"
@@ -13,9 +13,9 @@ enum Allergen: String {
   case shrimp = "shrimp"
 }
 
-extension Allergen: CustomStringConvertible {
+extension Array where Element == Allergen {
   var description: String {
-    "WARNING: \(rawValue.uppercased())"
+    "WARNING:" + map { $0.rawValue.uppercased() }.joined(separator: ", ")
   }
 }
 

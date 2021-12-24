@@ -5,7 +5,7 @@
 //  Created by Huan Lin on 12/20/21.
 //
 
-enum FoodCategory: String {
+enum FoodCategory: String, Codable {
   case japanese = "japanese"
   case italian = "italian"
   case vegetarian = "vegetarian"
