@@ -10,6 +10,10 @@
 		E01EE491278E4867008C1950 /* RestaurantListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01EE490278E4867008C1950 /* RestaurantListRow.swift */; };
 		E01EE493278E4BA7008C1950 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01EE492278E4BA7008C1950 /* SearchBar.swift */; };
 		E01EE499278E5C23008C1950 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01EE498278E5C23008C1950 /* DetailScreen.swift */; };
+		E01EE49E278E6292008C1950 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = E01EE49B278E6292008C1950 /* home.png */; };
+		E01EE49F278E6292008C1950 /* home_search.png in Resources */ = {isa = PBXBuildFile; fileRef = E01EE49C278E6292008C1950 /* home_search.png */; };
+		E01EE4A0278E6292008C1950 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = E01EE49D278E6292008C1950 /* detail.png */; };
+		E01EE4A2278E62B1008C1950 /* home_toggle.png in Resources */ = {isa = PBXBuildFile; fileRef = E01EE4A1278E62B1008C1950 /* home_toggle.png */; };
 		E0C6E2102770FFDE00EA6AA3 /* DummyRestaurantSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E20F2770FFDE00EA6AA3 /* DummyRestaurantSwiftUIApp.swift */; };
 		E0C6E2142770FFE000EA6AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C6E2132770FFE000EA6AA3 /* Assets.xcassets */; };
 		E0C6E2172770FFE000EA6AA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C6E2162770FFE000EA6AA3 /* Preview Assets.xcassets */; };
@@ -47,6 +51,11 @@
 		E01EE490278E4867008C1950 /* RestaurantListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListRow.swift; sourceTree = "<group>"; };
 		E01EE492278E4BA7008C1950 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		E01EE498278E5C23008C1950 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		E01EE49A278E6242008C1950 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E01EE49B278E6292008C1950 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		E01EE49C278E6292008C1950 /* home_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_search.png; sourceTree = "<group>"; };
+		E01EE49D278E6292008C1950 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+		E01EE4A1278E62B1008C1950 /* home_toggle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_toggle.png; sourceTree = "<group>"; };
 		E0C6E20C2770FFDE00EA6AA3 /* DummyRestaurantSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyRestaurantSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C6E20F2770FFDE00EA6AA3 /* DummyRestaurantSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyRestaurantSwiftUIApp.swift; sourceTree = "<group>"; };
 		E0C6E2132770FFE000EA6AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +111,11 @@
 		E0C6E2032770FFDE00EA6AA3 = {
 			isa = PBXGroup;
 			children = (
+				E01EE49B278E6292008C1950 /* home.png */,
+				E01EE4A1278E62B1008C1950 /* home_toggle.png */,
+				E01EE49C278E6292008C1950 /* home_search.png */,
+				E01EE49D278E6292008C1950 /* detail.png */,
+				E01EE49A278E6242008C1950 /* README.md */,
 				E0C6E20E2770FFDE00EA6AA3 /* DummyRestaurantSwiftUI */,
 				E0C6E21F2770FFE000EA6AA3 /* DummyRestaurantSwiftUITests */,
 				E0C6E2292770FFE000EA6AA3 /* DummyRestaurantSwiftUIUITests */,
@@ -293,8 +307,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E01EE49E278E6292008C1950 /* home.png in Resources */,
+				E01EE4A0278E6292008C1950 /* detail.png in Resources */,
+				E01EE4A2278E62B1008C1950 /* home_toggle.png in Resources */,
 				E0C6E2172770FFE000EA6AA3 /* Preview Assets.xcassets in Resources */,
 				E0C6E2462771032500EA6AA3 /* restaurants.json in Resources */,
+				E01EE49F278E6292008C1950 /* home_search.png in Resources */,
 				E0C6E2142770FFE000EA6AA3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
